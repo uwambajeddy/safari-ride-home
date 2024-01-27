@@ -25,7 +25,6 @@ import PageLayout from "examples/LayoutContainers/PageLayout";
 import Header from "layouts/pages/pricing-page/components/Header";
 import Footer from "layouts/pages/pricing-page/components/Footer";
 import PricingCards from "layouts/pages/pricing-page/components/PricingCards";
-import TrustedBrands from "layouts/pages/pricing-page/components/TrustedBrands";
 import Faq from "layouts/pages/pricing-page/components/Faq";
 
 function PricingPage(): JSX.Element {
@@ -35,7 +34,7 @@ function PricingPage(): JSX.Element {
   const handleSetTabValue = (event: any, newValue: any) => {
     setTabValue(newValue);
 
-    if (event.currentTarget.id === "passengers") {
+    if (event.currentTarget.id === "drivers") {
       setPrices(["A", "B", "C"]);
     } else {
       setPrices(["1", "2", "3"]);

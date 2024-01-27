@@ -88,18 +88,18 @@ function Header({ tabValue, tabHandler, children }: Props): JSX.Element {
               <AppBar position="static">
                 <Tabs value={tabValue} onChange={tabHandler}>
                   <Tab
-                    id="drivers"
-                    label={
-                      <MDBox py={0.5} px={2} color="inherit">
-                        Drivers
-                      </MDBox>
-                    }
-                  />
-                  <Tab
                     id="passengers"
                     label={
                       <MDBox py={0.5} px={2} color="inherit">
                         Passengers
+                      </MDBox>
+                    }
+                  />
+                  <Tab
+                    id="drivers"
+                    label={
+                      <MDBox py={0.5} px={2} color="inherit">
+                        Drivers
                       </MDBox>
                     }
                   />
