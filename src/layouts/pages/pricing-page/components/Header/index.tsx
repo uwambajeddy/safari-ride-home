@@ -46,17 +46,7 @@ interface Props {
 function Header({ tabValue, tabHandler, children }: Props): JSX.Element {
   return (
     <>
-      <DefaultNavbar
-        routes={pageRoutes}
-        action={{
-          type: "external",
-          route: "/scheduled/ScheduledPage",
-          label: "Scheduled", // Calendar
-          color: "light",
-        }}
-        transparent
-        light
-      />
+      <DefaultNavbar routes={pageRoutes} transparent light />
       <MDBox
         position="relative"
         minHeight="50vh"
