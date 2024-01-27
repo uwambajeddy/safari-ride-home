@@ -41,11 +41,11 @@ import Icon from "@mui/material/Icon";
 const pageRoutes = [
   {
     name: "Find A Ride",
-    route: "eddy.rw",
+    route: "https://safari-ride-passenger.vercel.app/login",
   },
   {
     name: "Post A Trip",
-    route: "https://www.google.com",
+    route: "https://safari-ride-drivers.vercel.app/login",
   },
   /*
   {
