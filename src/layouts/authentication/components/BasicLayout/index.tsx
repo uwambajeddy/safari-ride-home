@@ -45,8 +45,8 @@ function BasicLayout({ image, children }: Props): JSX.Element {
         routes={pageRoutes}
         action={{
           type: "external",
-          route: "https://creative-tim.com/product/material-dashboard-2-pro-react-ts",
-          label: "buy now",
+          route: "https://safari-ride-drivers.vercel.app/login",
+          label: "Post A Trip",
           color: "info",
         }}
         transparent

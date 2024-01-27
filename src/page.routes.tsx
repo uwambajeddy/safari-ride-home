@@ -42,12 +42,12 @@ const pageRoutes = [
   {
     type: "external",
     name: "Find A Ride",
-    route: "https://safari-ride-passenger.vercel.app/login",
+    href: "https://safari-ride-passenger.vercel.app/login",
   },
   {
     type: "external",
     name: "Post A Trip",
-    route: "https://safari-ride-drivers.vercel.app/login",
+    href: "https://safari-ride-drivers.vercel.app/login",
   },
   /*
   {
