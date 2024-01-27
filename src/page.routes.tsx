@@ -40,10 +40,12 @@ import Icon from "@mui/material/Icon";
 
 const pageRoutes = [
   {
+    type: "external",
     name: "Find A Ride",
     route: "https://safari-ride-passenger.vercel.app/login",
   },
   {
+    type: "external",
     name: "Post A Trip",
     route: "https://safari-ride-drivers.vercel.app/login",
   },
